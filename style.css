@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body{
+    background:#072544;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0 65px 0 65px;
+
+
+}
+
+.Card-body{
+    background:#1b3149;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    width: 500px;
+    border-radius: 5%;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+
+    
+
+}
+
+.footer{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 300px;
+ 
+}
+
+.card img{
+    border-radius: 10%;
+    display: grid;
+    position: relative;
+    width: 380px;
+    
+}
+.card img :hover{
+    
+}
+
+.footer{
+ justify-content: center;
+ flex-direction: row;
+ border-top: 2px solid grey;
+ margin-top: 50px;
+ 
+
+}
+
+h3{
+    color: white;
+    font-size:22px ;
+    font-weight: 500;
+    margin-bottom: 15px;
+    width: 300px;
+
+}
+
+.text{
+   color: rgb(125, 125, 143); 
+   font-size: 18px;
+   line-height: 1.5; 
+   margin-bottom: 10px ;
+   width: 300px;
+   
+}
+.icon-1{
+    font-size: large;
+    color: aqua;
+}
+.icon-2{
+    font-size: large;
+    color: grey;
+}
+
+.items{
+    display: flex;
+    justify-content:space-between ;
+    font-size: 300;
+    flex-direction: row;
+    margin-bottom:2px ;
+    gap: 130px;
+    margin-top: 10px;
+}
+.footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.foot{
+    margin-left: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.cardnote{
+    justify-content: center;
+    align-items: center;
+}
